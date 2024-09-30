@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* box-sizing: border-box; */
+    height: 100vh;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+section{
+    height: 94%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+footer{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer > input{
+    width: 90%;
+    height: 100%;
+}
+footer > button{
+    width: 10%;
+    height: 100%;
+    background-color: rgb(94, 94, 220);
+    border-radius: 3px;
+    color: white;
+}
+footer > button:hover{
+    background-color: rgba(94, 94, 220, 0.641);
+    cursor: pointer;
+}
