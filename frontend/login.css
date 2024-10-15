@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 20%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+section > input{
+    padding: 10px 0;
+    border-radius: 2px;
+}
+section > button{
+    padding: 5px 8px;
+    background-color: rgb(70, 70, 174);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+section > button:hover{
+    cursor: pointer;
+    background-color: rgba(70, 70, 174, 0.69);
+}

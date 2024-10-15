@@ -9,16 +9,18 @@
     <script src='node_modules/socket.io-client/dist/socket.io.js'></script>
 </head>
 <body>
-    <section>
-        <h3>welcome to online chat</h3>
-        <ul id="messages-list">
-            <!-- <li>gdgdgdg</li> -->
-        </ul>
+    <section id="users">
+        <h2>Online Users</h2>
     </section>
-    <footer>
-        <input type="text" placeholder="Type your message">
-        <button id="send">Send</button>
-    </footer>
+    <section id="chat">
+        <h3>welcome to online chat</h3>
+        <div id="messages">
+        </div>
+        <footer>
+            <input type="text" placeholder="Type your message">
+            <button id="send">Send</button>
+        </footer>
+    </section>
     <script src="app.js"></script>
 </body>
 </html>

@@ -16,6 +16,7 @@ io.on("connection", (socket) => {
     socket.on("send", (data) => {
         console.log(data.message + " from server");
         socket.broadcast.emit("send", data);
+        socket.emit("send", data);
     });
 });
 
